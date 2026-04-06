@@ -10,7 +10,9 @@ function App() {
        style={{backgroundColor: color}}>
         <div className="fixed flex flex-wrap
         justify-center top-12 inset-x-0 px-2">
-        <div className="flex flex-wrap justify-center  gap-4 shadow-lg bg-black text-black px-3 py-2 rounded-full">
+          <div className="flex flex-wrap justify-center shadow-lg bg-black text-white rounded-full">
+            <span className="font-bold">Background Color Changer</span>
+        <div className="flex flex-wrap justify-center  gap-3 shadow-lg bg-black text-white px-3 py-2 rounded-full">
           <button
           onClick={()=>setcolor("white")} 
           className="outline-none px-4 text-black" 
@@ -48,6 +50,7 @@ function App() {
 
         </div>
         
+       </div>
        </div>
     </>
   )
